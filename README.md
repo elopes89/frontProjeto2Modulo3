@@ -4,5 +4,5 @@ Front End do Projeto 2 do Módulo 3 do Futuro Dev Senai.
 Produzido com apenas JavaScript, Css e Html
 
 ## Uso do projeto
-Para usar a aplicação é necessário que a do Back End esteja rodando.
+Para usar a aplicação é necessário que projeto Back End esteja rodando.
 O Front End apresenta uma maneira mais atrativa de execução do projeto.
