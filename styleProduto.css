@@ -1,0 +1,107 @@
+input {
+    margin: 15px;
+    width: 400px;
+}
+
+li {
+    width: 300px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+form {
+    width: 1000px;
+    margin-left: 350px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ulProdutos {
+    padding: 0;
+    display: flex;
+    border-radius: 10px;
+    width: 600px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    width: 600px;
+    padding-left: 10px;
+    background-color: white;
+    margin-top: 20px;
+    align-items: center;
+
+
+    -webkit-box-shadow: -4px 0px 13px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 0px 13px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: -4px 0px 13px -4px rgba(0, 0, 0, 0.75);
+
+    border-radius: 10px;
+    align-items: center;
+}
+
+#cabecalho li {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#cabecalho {
+    width: 600px;
+    justify-content: center;
+    text-align: center;
+    margin-right: 80px;
+    margin-bottom: 0;
+}
+
+label {
+    margin-left: 20px;
+}
+
+#btnCat {
+    float: right;
+}
+
+#btn {
+    margin-left: 150px
+}
+
+header {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pTotal {
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 170px;
+}
+
+#pai {
+    display: flex;
+}
+
+#pai div {
+    margin: 5px;
+}
