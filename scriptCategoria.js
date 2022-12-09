@@ -30,8 +30,6 @@ async function getCategorias() {
     }
 }
 
-console.log(categorias)
-
 let idBackEnd = 0
 let idDel = 0
 function selecionar(id) {
@@ -47,6 +45,7 @@ function deletar() {
             method: "DELETE",
         })
         .then(function (res) {
+            verificaCategoria()
             getCategorias()
             limpar()
         })
@@ -136,3 +135,19 @@ function validarValor() {
         alert("Preencha todos os campos")
     }
 }
+
+let produtos = []
+async function verificaCategoria() {
+    let cont = 0
+    produtos = await (await fetch('http://localhost:8000/produtos')).json()
+    for (let i = 0; i < produtos.length; i++) {
+        if (produtos[i].id_categoria === idBackEnd) {
+            cont++
+        }
+    }
+    if (cont > 0) {
+        alert("Categoria em uso. Não pode ser deletada")
+
+    }
+}
+
