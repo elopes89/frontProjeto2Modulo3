@@ -32,6 +32,7 @@ async function getProdutos() {
         listaDOM.appendChild(li)
     }
     getTotal()
+
 }
 
 
@@ -161,3 +162,4 @@ function validarValor() {
     alert("Preencha todos os campos")
    }
 }
+
